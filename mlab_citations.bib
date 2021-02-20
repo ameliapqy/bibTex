@@ -616,7 +616,9 @@ various settings.”}
   volume={226},
   pages={1252--1272},
   year={2018},
-  publisher={Elsevier}
+  publisher={Elsevier},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1136&context=mlab_papers},
+  abstract = {Model Predictive Control (MPC) is a model-based technique widely and successfully used over the past years to improve control systems performance. A key factor prohibiting the widespread adoption of MPC for complex systems such as buildings is related to the difficulties (cost, time and effort) associated with the identification of a predictive model of a building. To overcome this problem, we introduce a novel idea for predictive control based on historical building data leveraging machine learning algorithms like regression trees and random forests. We call this approach Data-driven model Predictive Control (DPC), and we apply it to three different case studies to demonstrate its performance, scalability, and robustness. In the first case study we consider a benchmark MPC controller using a bilinear building model, then we apply DPC to a data-set simulated from such bilinear model and derive a controller based only on the data. Our results demonstrate that DPC can provide comparable performance with respect to MPC applied to a perfectly known mathematical model. In the second case study, we apply DPC to a 6 story 22 zone building model in EnergyPlus, for which model-based control is not economical and practical due to extreme complexity, and address a Demand Response problem. Our results demonstrate scalability and efficiency of DPC showing that DPC provides the desired power curtailment with an average error of 3%. In the third case study, we implement and test DPC on real data from an off-grid house located in L’Aquila, Italy. We compare the total amount of energy saved with respect to the classical bang-bang controller, showing that we can perform an energy saving up to 49.2%. Our results demonstrate the robustness of our method to uncertainties both in real data acquisition and weather forecast.}
 }
 
 @article{behlsometimes,
@@ -995,13 +997,15 @@ various settings.”}
 @article{abbas2018novel,
   title={A novel programming language to reduce energy consumption by arrhythmia monitoring algorithms in implantable cardioverter-defibrillators},
   author={Abbas, Houssam and Mamouras, Konstantinos and Rodionova, Alena and Rajeev, Alur and Liang, Jackson and Dixit, Sanjay and Mangharam, Rahul},
-  year={2018}
+  year={2018},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1128&context=mlab_papers},
 }
 
 @article{boczarautoplug,
   title={AutoPlug-Open Architecture for Plug-n-Play Automotive Services},
   author={Boczar, Ross and Suapengco, Jason and Torres, Gabriel and Mangharam, Rahul},
   publisher={Citeseer}
+
 }
 
 @inproceedings{mangharam2011anytime,
@@ -1107,8 +1111,8 @@ various settings.”}
   title={Tech report: Fly-by-logic: Control of multi-drone fleets with temporal logic objectives},
   author={Pant, Yash Vardhan and Abbas, Houssam and Quaye, Rhudii A and Mangharam, Rahul},
   year={2018},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1127&context=mlab_papers},
+  abstract = {The problem of safe planning and control for multi- drone systems across a variety of missions is of critical impor- tance, as the scope of tasks assigned to such systems increases. In this paper, we present an approach to solve this problem for multi-quadrotor missions. Given a mission expressed in Signal Temporal Logic (STL), our controller maximizes robustness to generate trajectories for the quadrotors that satisfy the STL spec- ification in continuous-time. We also show that the constraints on our optimization guarantees that these trajectories can be tracked nearly perfectly by lower level off-the-shelf position and attitude controllers. Our approach avoids the oversimplifying abstractions found in many planning methods, while retaining the expressiveness of missions encoded in STL allowing us to handle complex spatial, temporal and reactive requirements. Through experiments, both in simulation and on actual quadrotors, we show the performance, scalability and real-time applicability of our method.}
 }
 
 @inproceedings{nghiem2011green,
@@ -1293,7 +1297,9 @@ various settings.”}
   booktitle={2018 ACM/IEEE 9th International Conference on Cyber-Physical Systems (ICCPS)},
   pages={140--149},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1121&context=mlab_papers},
+  abstract = {Building physics-based models of complex physical systems like buildings and chemical plants is extremely cost and time prohibitive for applications such as real-time optimal control, production planning and supply chain logistics. Machine learning algorithms can reduce this cost and time complexity, and are, consequently, more scalable for large-scale physical systems. However, there are many practical challenges that must be addressed before employing machine learning for closed-loop control. This paper proposes the use of Gaussian Processes (GP) for learning control-oriented models: (1) We develop methods for the optimal experiment design (OED) of functional tests to learn models of a physical system, subject to stringent operational constraints and limited availability of the system. Using a Bayesian approach with GP, our methods seek to select the most informative data for optimally updating an existing model. (2) We also show that black-box GP models can be used for receding horizon optimal control with probabilistic guarantees on constraint satisfaction through chance constraints. (3) We further propose an online method for continuously improving the GP model in closed-loop with a real-time controller. Our methods are demonstrated and validated in a case study of building energy control and Demand Response.}
 }
 
 @article{bogdan2015cyber,
@@ -1314,7 +1320,9 @@ various settings.”}
   booktitle={2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
   pages={1--4},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {},
+  abstract = {}
 }
 
 @phdthesis{takeda2003paq,
@@ -1535,7 +1543,9 @@ various settings.”}
   number={16},
   pages={199--204},
   year={2018},
-  publisher={Elsevier}
+  publisher={Elsevier},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1135&context=mlab_papers},
+  abstract = {Model Predictive Control (MPC) is a well-consolidated technique to design optimal control strategies, leveraging the capability of a mathematical model to predict the system’s behavior over a predictive horizon. However, building physics-based models for large-scale systems, such as buildings and process control, can be cost and time prohibitive. To overcome this problem we propose in this paper a methodology to exploit machine learning techniques (i.e. regression trees and random forests) in order to build a state-space switched affine dynamical model of a large scale system only using historical data. Finite Receding Horizon Control (RHC) setup using control-oriented data-driven models based on regression trees and random forests is presented as well. A comparison with an optimal MPC benchmark and a related methodology is provided on an energy management system to show the performance of the proposed modeling framework. Simulation results show that the proposed approach is very close to the optimum and provides better performance with respect to the related methodology in terms of cost function optimization.}
 }
 
 @article{rowe2008rt,
@@ -1652,7 +1662,9 @@ various settings.”}
 @article{abbas2016computer,
   title={Computer aided clinical trials for implantable cardiac devices},
   author={Abbas, Houssam and Jiang, Zhihao and Jang, Kuk Jin and Beccani, Marco and Liang, Jackson and Dixit, Sanjay and Mangharam, Rahul},
-  year={2016}
+  year={2016},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1131&context=mlab_papers},
+  abstract = {In this paper we aim to answer the question, ``How can modeling and simulation of physiological systems be used to evaluate life-critical implantable medical devices?'' Clinical trials for medical devices are becoming increasingly inefficient as they take several years to conduct, at very high cost and suffer from high rates of failure. For example, the Rhythm ID Goes Head-to-head Trial (RIGHT) sought to evaluate the performance of two arrhythmia discriminator algorithms for implantable cardioverter defibrillators, Vitality 2 vs. Medtronic, in terms of time-to-first inappropriate therapy, but concluded with results contrary to the initial hypothesis - after 5 years, 2,000+ patients and at considerable ethical and monetary cost. In this paper, we describe the design and performance of a computer-aided clinical trial (CACT) for Implantable Cardiac Devices where previous trial information, real patient data and closed-loop device models are effectively used to evaluate the trial with high confidence. We formulate the CACT in the context of RIGHT using a Bayesian statistical framework. We define a hierarchical model of the virtual cohort generated from a physiological model which captures the uncertainty in the parameters and allows for the systematic incorporation of information available at the design of the trial. With this formulation, the CACT estimates the inappropriate therapy rate of Vitality 2 compared to Medtronic as 33.22% vs 15.62% (p}
 }
 
 @article{mangharam2010spatio,
@@ -1742,7 +1754,9 @@ various settings.”}
   number={9},
   pages={1593--1615},
   year={2018},
-  publisher={IEEE}
+  publisher={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1122&context=mlab_papers},
+  abstract = {As methods and tools for Cyber-Physical Systems grow in capabilities and use, one-size-fits-all solutions start to show their limitations. In particular, tools and languages for programming an algorithm or modeling a CPS that are specific to the application domain are typically more usable, and yield better performance, than general-purpose languages and tools. In the domain of cardiac arrhythmia monitoring, a small, implantable medical device continuously monitors the patient's cardiac rhythm and delivers electrical therapy when needed. The algorithms executed by these devices are streaming algorithms, so they are best programmed in a streaming language that allows the programmer to reason about the incoming data stream as the basic object, rather than force her to think about lower-level details like state maintenance and minimization. Because these devices are resource-constrained, it is useful if the programming language allowed predictable performance in terms of processing runtime and energy consumption, or more general costs. StreamQRE is a declarative streaming programming language, with an efficient and portable implementation and strong theoretical guarantees. In particular, its evaluation algorithm guarantees constant cost (runtime, memory, energy) per data item, and also calculates upper bounds on the per-item cost. Such an estimate of the cost allows early exploration of the algorithmic possibilities, while maintaining a handle on worst-case performance, on the basis of which hardware can be designed and algorithms can be tuned.}
 }
 
 @inproceedings{jiang2016silico,
@@ -1772,7 +1786,55 @@ various settings.”}
   booktitle={2018 Annual American Control Conference (ACC)},
   pages={1592--1597},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1133&context=mlab_papers},
+  abstract = {Robustness-Guided Falsification (RGF) is an efficient
+
+testing technique that tries to find a system execution that
+
+violates some formal specification, by minimizing the robustness
+
+of the specification over the set of initial conditions of the
+
+system. Robustness uses an underlying distance function on
+
+the space of system executions. As RGF is applied to new fields
+
+like medicine, it is essential to determine whether our distances
+
+still capture the domain expert’s intuition of which executions
+
+are similar and which are not. Motivated by the problem of
+
+testing the algorithms of cardiac defibrillators implanted in
+
+millions of patients worldwide, this work develops a (pseudo-
+
+)distance function, called conformance, over the space of cardiac
+
+signals. By using it to distinguish between fatal and non-fatal
+
+arrhythmias obtained from real patients, it is demonstrated
+
+that conformance measures the meaningful distance between
+
+cardiac signals much better than distances used in medical
+
+devices today. Next, conformance is used to re-define the
+
+robustness degrees of Metric Temporal Logic (MTL), and it
+
+is shown that conformance-based robust semantics of MTL
+
+can bound the (conformance-based) robustness degree, thus
+
+enabling a principled application of RGF to problems in the
+
+cardiac domain, using the appropriate distance notion. Using
+
+existing robust semantics based on sup norm can yield incorrect
+
+conclusions, with potentially severe consequences to patients.}
 }
 
 @inproceedings{arney2010toward,
