@@ -12,8 +12,8 @@
   title={Campus-wide integrated building energy simulation},
   author={Bernal, Willy and Behl, Madhur and Nghiem, Truong X and Mangharam, Rahul},
   year={2015},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1104&context=mlab_papers},
+  abstract = {Effective energy management for large campus facilities is becoming increasingly complex as modern heating and cooling systems comprise of several hundred subsystems interconnected to each other. Building energy simulators like EnergyPlus are exceedingly good at modeling a single building equipped with a standalone HVAC equipment. However, the ability to simulate a large campus and to control the dynamics and interactions of the subsystems is limited or missing altogether. In this paper, we use the Matlab-EnergyPlus MLE+ tool we developed, to extend the capability of EnergyPlus to co-simulate a campus with multiple buildings connected to a chilled water distribution to a central chiller plant with control systems in Matlab. We present the details of how this simulation can be set-up and implemented using MLE+'s Matlab/Simulink block. We utilize the virtual campus test-bed to evaluate the performance of several demand response strategies. We also describe a coordinated demand response scheme which can lead to load curtailment during a demand response event while minimizing thermal discomfort.}
 }
 
 @inproceedings{he2019electroanatomic,
@@ -79,8 +79,8 @@ We demonstrate the utility of the framework and how the results of δ-robustness
   title={Technical report: Control using the smooth robustness of temporal logic},
   author={Pant, Yash Vardhan and Abbas, Houssam and Mangharam, Rahul},
   year={2017},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1117&context=mlab_papers},
+  abstract = {Cyber-Physical Systems must withstand a wide range of errors, from bugs in their software to attacks on their physical sensors. Given a formal specification of their desired behavior in Metric Temporal Logic (MTL), the robust semantics of the specification provides a notion of system robustness that can be calculated directly on the output behavior of the system, without explicit reference to the various sources or models of the errors. The robustness of the MTL specification has been used both to verify the system offline (via robustness minimization) and to control the system online (to maximize its robustness over some horizon). Unfortunately, the robustness objective function is difficult to work with: it is recursively defined, non-convex and non-differentiable. In this paper, we propose smooth approximations of the robustness. Such approximations are differentiable, thus enabling us to use powerful off-the- shelf gradient descent algorithms for optimizing it. By using them we can also offer guarantees on the performance of the optimization in terms of convergence to minima. We show that the approximation error is bounded to any desired level, and that the approximation can be tuned to the specification. We demonstrate the use of the smooth robustness to control two quad-rotors in an autonomous air traffic control scenario, and for temperature control of a building for comfort.}
 }
 
 @article{pajic2013topological,
@@ -112,8 +112,26 @@ We demonstrate the utility of the framework and how the results of δ-robustness
   author={Jiang, Zhihao and Abbas, Houssam and Mosterman, P and Mangharam, Rahul},
   year={2015},
   institution={Tech Report: http://repository. upenn. edu/mlab\_papers},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1091&context=mlab_papers},
+  abstract = {This paper proposes a methodology for closed-loop model checking of medical devices, and illustrates it with a case study on implantable
+cardiac pacemakers. To evaluate the performance of a medical device on
+the human body, a model of the device’s physiological environment must be
+developed, and the closed-loop consisting of device (e.g., pacemaker) and
+environment (e.g., the human heart) is model-checked. Formal modeling of
+the environment and its application in model checking pose several challenges that are addressed in this paper. Pacemakers should guarantee safe
+operations across large varieties of heart conditions, which are represented
+by an incomplete set of timed automata models. A set of domain-specific
+abstraction rules are developed that can over-approximate the timing behaviors of a heart model or a group of heart models, such that the new
+behaviors introduced by abstraction are mostly physiologically meaningful.
+The rules serve as a systematic method to cover heart conditions that may
+not be explicitly accounted for in the initial set of heart models. Closed-loop
+model checking is systematically performed using the heart models in the
+abstraction tree, to obtain the most concrete counter-example(s) that correspond to property violation. These counter-examples, along with their
+physiological context, are then presented to the physician to determine
+their physiological validity. The proposed methodology creates a separation between steps requiring physiological domain expertise (model creation and abstraction rules definition) and steps that can be automated
+(rule application, model checking, and abstraction refinement). While the
+methodology is illustrated for pacemaker verification, it is more broadly
+applicable to the verification of other medical devices.}
 }
 
 @inproceedings{behl2014impact,
@@ -123,8 +141,8 @@ We demonstrate the utility of the framework and how the results of δ-robustness
   pages={1109--1114},
   year={2014},
   organization={IEEE},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1083&context=mlab_papers},
+  abstract = {Uncertainty affects all aspects of building performance: from the identification of models, through the implementation of model-based control, to the operation of the deployed systems. Learning models of buildings from sensor data has a fundamental property that the model can only be as accurate and reliable as the data on which it was trained. For small and medium size buildings, a low-cost method for model capture is necessary to take advantage of optimal model-based supervisory control schemes. We present IMpACT, a methodology and a toolbox for analysis of uncertainty propagation for building inverse modeling and controls. Given a plant model and real input data, IMpACT automatically evaluates the effect of the uncertainty propagation from sensor data to model accuracy and control performance. We also present a statistical method to quantify the bias in the sensor measurement and to determine near optimal sensor placement and density for accurate signal measurements. In our previous work, we considered the end-to-end propagation of uncertainty in the form of fixed bias in the sensor data. In this paper, we extend the method to work with random errors in the sensor data, which is more realistic. Using a real building test-bed, we show how performing an uncertainty analysis can reveal trends about inverse model accuracy and control performance, which can be used to make informed decisions about sensor requirements and data accuracy.}
 }
 
 @inproceedings{mangharam2019safe,
@@ -135,8 +153,9 @@ We demonstrate the utility of the framework and how the results of δ-robustness
   pages={94},
   year={2019},
   organization={Springer},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1132&context=mlab_papers},
+  abstract = {The testing of Autonomous Vehicles (AVs) requires driving the AV billions of miles under varied scenarios in order to find bugs, accidents and otherwise inappropriate behavior. Because driving a real AV that many miles is too slow and costly, this motivates the use of sophisticated `world simulators', which present the AV's perception pipeline with realistic input scenes, and present the AV's control stack with realistic traffic and physics to which to react. Thus the simulator is a crucial piece of any CAD toolchain for AV testing. In this work, we build a test harness for driving an arbitrary AV's code in a simulated world. We demonstrate this harness by using the game Grand Theft Auto V (GTA) as world simulator for AV testing.
+Namely, our AV code, for both perception and control, interacts in real-time with the game engine to drive our AV in the GTA world, and we search for weather conditions and AV operating conditions that lead to dangerous situations. This goes beyond the current state-of-the-art where AVs are tested under ideal weather conditions, and lays the ground work for a more comprehensive testing effort. We also propose and demonstrate necessary analyzes to validate the simulation results relative to the real world. The results of such analyses allow the designers and verification engineers to weigh the results of simulation-based testing.}
 }
 
 @article{agarwalmpe,
@@ -167,8 +186,8 @@ We demonstrate the utility of the framework and how the results of δ-robustness
   booktitle={Proceedings of the 3rd ACM International Conference on Systems for Energy-Efficient Built Environments},
   pages={109--118},
   year={2016},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1111&context=mlab_papers},
+  abstract = {Decisions on how best to optimize today's energy systems operations are becoming ever so complex and conflicting such that model-based predictive control algorithms must play a key role. However, learning dynamical models of energy consuming systems such as buildings, using grey/white box approaches is very cost and time prohibitive due to its complexity. This paper presents data-driven methods for making control-oriented model for peak power reduction in buildings. Specifically, a data predictive control with regression trees (DPCRT) algorithm, is presented. DPCRT is a finite receding horizon method, using which the building operator can optimally trade off peak power reduction against thermal comfort without having to learn white/grey box models of the systems dynamics. We evaluate the performance of our method using a DoE commercial reference virtual test-bed and show how it can be used for learning predictive models with 90% accuracy, and for achieving 8.6% reduction in peak power and costs.}
 }
 
 @article{mangharamfirefly,
@@ -240,8 +259,8 @@ various settings.”}
   title={Robust Model Predictive Control with Anytime Estimation},
   author={Nghiem, Truong X and Pant, Yash Vardhan and Mangharam, Rahul},
   year={2014},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1088&context=mlab_papers},
+  abstract = {With an increasing autonomy in modern control systems comes an increasing amount of sensor data to be processed, leading to overloaded computation and communication in the systems. For example, a vision-based robot controller processes large image data from cameras at high frequency to observe the robot’s state in the surrounding environment, which is used to compute control commands. In real-time control systems where large volume of data is processed for feedback control, the data-dependent state estimation can become a computation and communication bottleneck, resulting in potentially degraded control performance. Anytime algorithms, which offer a trade-off between execution time and accuracy of computation, can be leveraged in such systems. We present a Robust Model Predictive Control approach with an Anytime State Estimation Algorithm, which computes both the optimal control signal for the plant and the (time-varying) deadline/accuracy constraint for the anytime estimator. Our approach improves the system’s performance (concerning both the control performance and the estimation cost) over conventional controllers, which are designed for and operate at a fixed computation time/accuracy setting. We numerically evaluate our approach in an idealized motion model for navigation with both state and control constraints.}
 }
 
 @incollection{nilsen2017modeling,
@@ -340,7 +359,29 @@ various settings.”}
 @article{pant2015co,
   title={Co-design of anytime computation and robust control (supplemental)},
   author={Pant, Yash Vardhan and Mohta, Kartik and Abbas, Houssam and Nghiem, Truong X and Deveitti, Joesph and Mangharam, Rahul},
-  year={2015}
+  year={2015},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1092&context=mlab_papers},
+  abstract = {Control software of autonomous robots has stringent real-time requirements that must be met to achieve the
+control objectives. One source of variability in the performance
+of a control system is the execution time and accuracy of
+the state estimator that provides the controller with state
+information. This estimator is typically perception-based (e.g.,
+Computer Vision-based) and is computationally expensive.
+When the computational resources of the hardware platform
+become overloaded, the estimation delay can compromise control performance and even stability. In this paper, we define
+a framework for co-designing anytime estimation and control
+algorithms, in a manner that accounts for implementation
+issues like delays and inaccuracies. We construct an anytime
+perception-based estimator from standard off-the-shelf Computer Vision algorithms, and show how to obtain a trade-off
+curve for its delay vs estimate error behavior. We use this
+anytime estimator in a controller that can use this tradeoff curve at runtime to achieve its control objectives at a
+reduced energy cost. When the estimation delay is too large
+for correct operation, we provide an optimal manner in which
+the controller can use this curve to reduce estimation delay
+at the cost of higher inaccuracy, all the while guaranteeing
+basic objectives are met. We illustrate our approach on an
+autonomous hexrotor and demonstrate its advantage over a
+system that does not exploit co-design.}
 }
 
 @inproceedings{drolia2011demo,
@@ -367,7 +408,9 @@ various settings.”}
   booktitle={2016 ACM/IEEE 7th International Conference on Cyber-Physical Systems (ICCPS)},
   pages={1--10},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1102&context=mlab_papers},
+  abstract = {Demand response (DR) is becoming increasingly important as the volatility on the grid continues to increase. Current DR approaches are completely manual and rule-based or in- volve deriving first principles based models which are ex- tremely cost and time prohibitive to build. We consider the problem of data-driven end-user DR for large buildings which involves predicting the demand response baseline, evaluating fixed rule based DR strategies and synthesizing DR control actions. We provide a model based control with regression trees algorithm (mbCRT), which allows us to perform closed- loop control for DR strategy synthesis for large commercial buildings. Our data-driven control synthesis algorithm out- performs rule-based DR by 17% for a large DoE commercial reference building and leads to a curtailment of 380kW and over $45, 000 in savings. Our methods have been integrated into an open source tool called DR-Advisor, which acts as a recommender system for the building’s facilities manager and provides suitable control actions to meet the desired load curtailment while maintaining operations and maximizing the economic reward. DR-Advisor achieves 92.8% to 98.9% pre- diction accuracy for 8 buildings on Penn’s campus. We com- pare DR-Advisor with other data driven methods and rank 2nd on ASHRAE’s benchmarking data-set for energy predic- tion.}
 }
 
 @misc{mangharam2008real,
@@ -392,7 +435,8 @@ various settings.”}
   title={MOBILITY21: Strategic Investments for Transportation Infrastructure \& Technology},
   author={Mangharam, Rahul and Reyerson, Megan and Viscelli, Steve and Balakrishanan, Hamsa and Bayen, Alexandre and Amin, Surabh and Richards, Leslie and Bagley, Leo and Pappas, George},
   journal={arXiv preprint arXiv:1705.01923},
-  year={2017}
+  year={2017},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1129&context=mlab_papers}
 }
 
 @article{mangharam2012car,
@@ -429,7 +473,9 @@ various settings.”}
 @article{o2016apex,
   title={APEX: Autonomous vehicle plan verification and execution},
   author={O'Kelly, Matthew and Abbas, Houssam and Gao, Sicun and Shiraishi, Shin'ichi and Kato, Shinpei and Mangharam, Rahul},
-  year={2016}
+  year={2016},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1098&context=mlab_papers},
+  abstract = {Autonomous vehicles (AVs) have already driven millions of miles on public roads, but even the simplest scenarios have not been certified for safety. Current methodologies for the verification of AV's decision and control systems attempt to divorce the lower level, short-term trajectory planning and trajectory tracking functions from the behavioral rules-based framework that governs mid-term actions. Such analysis is typically predicated on the discretization of the state space and has several limitations. First, it requires that a conservative buffer be added around obstacles such that many feasible plans are classified as unsafe. Second, the discretized controllers modeled in this analysis require several refinement steps before being implementable on an actual AV, and typically do not allow the specification of comfort-related properties on the trajectories. In contrast, consumer-ready AVs use motion planning algorithms that generate smooth trajectories. While viable algorithms exist for the generation of smooth trajectories originating from a single state, analysis should consider that the AV faces state estimation errors and disturbances. Third, verification is restricted to a discretized state space with fixed-size cells; this assumption can artificially limit the set of available trajectories if the discretization is too coarse. Conversely, too fine of a discretization renders the problem intractable for automated analysis. This work presents a new verification tool, APEX, which investigates the combined action of a behavioral planner and state lattice-based motion planner to guarantee a safe vehicle trajectory is chosen. In APEX, decisions made at the behavioral layer can be traced through to the spatio-temporal evolution of the AV and verified. Thus, there is no need to create abstractions of the AV's controllers, and aggressive trajectories required for evasive maneuvers can be accurately investigated.}
 }
 
 @article{mangharam2007bounded,
@@ -484,7 +530,9 @@ various settings.”}
 @article{pant2016tech,
   title={Tech report: Robust model predictive control for non-linear systems with input and state constraints via feedback linearization},
   author={Pant, Yash Vardhan and Abbas, Houssam and Mangharam, Rahul},
-  year={2016}
+  year={2016},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1107&context=mlab_papers},
+  abstract = {Robust predictive control of non-linear systems under state estimation errors and input and state constraints is a challenging problem, and solutions to it have generally involved solving computationally hard non-linear optimizations. Feedback linearization has reduced the computational burden, but has not yet been solved for robust model predictive control under estimation errors and constraints. In this paper, we solve this problem of robust control of a non-linear system under bounded state estimation errors and input and state constraints using feedback linearization. We do so by developing robust constraints on the feedback linearized system such that the non-linear system respects its constraints. These constraints are computed at run-time using online reachability, and are linear in the optimization variables, resulting in a Quadratic Program with linear constraints. We also provide robust feasibility, recursive feasibility and stability results for our control algorithm. We evaluate our approach on two systems to show its applicability and performance}
 }
 
 @article{mangharam2013anytime,
@@ -529,7 +577,10 @@ various settings.”}
   volume={170},
   pages={30--46},
   year={2016},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1103&context=mlab_papers},
+  abstract = {Demand response (DR) is becoming increasingly important as the volatility on the grid continues to increase. Current DR ap- proaches are predominantly completely manual and rule-based or involve deriving first principles based models which are ex- tremely cost and time prohibitive to build. We consider the problem of data-driven end-user DR for large buildings which involves predicting the demand response baseline, evaluating fixed rule based DR strategies and synthesizing DR control actions. The challenge is in evaluating and taking control decisions at fast time scales in order to curtail the power consumption of the building, in return for a financial reward. We provide a model based control with regression trees algorithm (mbCRT), which allows us to perform closed-loop control for DR strategy synthesis for large commercial buildings. Our data-driven control synthesis algorithm outperforms rule-based DR by 17% for a large DoE commercial reference building and leads to a curtailment of 380kW and over $45, 000 in savings. Our methods have been integrated into an open source tool called DR-Advisor, which acts as a recommender system for the building’s facilities manager and provides suitable control actions to meet the desired load curtailment while main- taining operations and maximizing the economic reward. DR-Advisor achieves 92.8% to 98.9% prediction accuracy for 8 buildings on Penn’s campus. We compare DR-Advisor with other data driven methods and rank 2nd on ASHRAE’s benchmarking data-set for energy prediction.}
+
 }
 
 @inproceedings{o2020textscf1tenth,
@@ -621,11 +672,6 @@ various settings.”}
   abstract = {Model Predictive Control (MPC) is a model-based technique widely and successfully used over the past years to improve control systems performance. A key factor prohibiting the widespread adoption of MPC for complex systems such as buildings is related to the difficulties (cost, time and effort) associated with the identification of a predictive model of a building. To overcome this problem, we introduce a novel idea for predictive control based on historical building data leveraging machine learning algorithms like regression trees and random forests. We call this approach Data-driven model Predictive Control (DPC), and we apply it to three different case studies to demonstrate its performance, scalability, and robustness. In the first case study we consider a benchmark MPC controller using a bilinear building model, then we apply DPC to a data-set simulated from such bilinear model and derive a controller based only on the data. Our results demonstrate that DPC can provide comparable performance with respect to MPC applied to a perfectly known mathematical model. In the second case study, we apply DPC to a 6 story 22 zone building model in EnergyPlus, for which model-based control is not economical and practical due to extreme complexity, and address a Demand Response problem. Our results demonstrate scalability and efficiency of DPC showing that DPC provides the desired power curtailment with an average error of 3%. In the third case study, we implement and test DPC on real data from an off-grid house located in L’Aquila, Italy. We compare the total amount of energy saved with respect to the classical bang-bang controller, showing that we can perform an energy saving up to 49.2%. Our results demonstrate the robustness of our method to uncertainties both in real data acquisition and weather forecast.}
 }
 
-@article{behlsometimes,
-  title={Sometimes, Money Does Grow on Trees},
-  author={Behl, Madhur and Mangharam, Rahul}
-}
-
 @inproceedings{mangharam2005groovesim,
   title={GrooveSim: a topography-accurate simulator for geographic routing in vehicular networks},
   author={Mangharam, Rahul and Weller, Daniel S and Stancil, Daniel D and Rajkumar, Ragunathan and Parikh, Jayendra S},
@@ -681,7 +727,9 @@ various settings.”}
   booktitle={2014 American Control Conference},
   pages={4212--4217},
   year={2014},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&context=mlab_papers},
+  abstract = {Hybrid energy systems, which consist of a load powered by a source and a form of energy storage, find applications in many systems, e.g., the electric grid and electric vehicles. A key problem for hybrid energy systems is the reduction of peak power consumption to ensure cost-efficient operation as peak power draws require additional resources and adversely affect the system reliability and lifetime. Furthermore, in some cases such as electric vehicles, the load dynamics are fast, not perfectly known in advance and the on-board computation power is often limited, making the implementation of traditional optimal control difficult. We aim to develop a control scheme to reduce the peak power drawn from the source for hybrid energy systems with limited computation power and limited load forecasts. We propose a scheme with two control levels and provide a sufficient condition for control of the different energy storage/generation components to meet the instantaneous load while satisfying a peak power threshold. The scheme provides performance comparable to Model Predictive Control, while requiring less computation power and only coarse-grained load predictions. For a case study, we implement the scheme for a battery-supercapacitor-powered electric vehicle with real world drive cycles to demonstrate the low execution time and effective reduction of the battery power (hence temperature), which is crucial to the lifetime of the battery.}
 }
 
 @article{pajic2011wireless,
@@ -773,8 +821,10 @@ various settings.”}
 @article{behl2015dr,
   title={DR-Advisor: A data driven demand response recommender system},
   author={Behl, Madhur and Nghiem, Truong X and Mangharam, Rahul},
-  year={2015}
-}
+  year={2015},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1099&context=mlab_papers},
+  abstract = {A data-driven method for demand response baselining and strategy evaluation is presented. Using meter and weather data along with set-point schedule information, we use an ensemble of regression trees to learn non-parametric data-driven models for predicting the power consumption of the building. This model can be used for evaluating demand response strategies in real-time, without having to learn complex models of the building. The methods have been integrated in an open-source tool called DR-Advisor, which acts as a recommender system for the building’s facilities manager by advising on which control actions should be during a demand response event. We provide a case study using data from a large commercial vistural test-bed building to evaluate the performance of the DR-Advisor tool. Keywords: demand response, regression trees, machine learning}
+  }
 
 @inproceedings{behl2014model,
   title={Model-iq: Uncertainty propagation from sensing to modeling and control in buildings},
@@ -782,7 +832,9 @@ various settings.”}
   booktitle={2014 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)},
   pages={13--24},
   year={2014},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1082&context=mlab_papers},
+  abstract = {A fundamental problem in the design of closed-loop Cyber-Physical Systems (CPS) is in accurately capturing the dynamics of the underlying physical system. To provide optimal control for such closed-loop systems, model-based controls require accurate physical plant models. It is hard to analytically establish (a) how data quality from sensors affects model accuracy, and consequently, (b) the effect of model accuracy on the operational cost of model-based controllers. We present the Model-IQ toolbox which, given a plant model and real input data, automatically evaluates the effect of this uncertainty propagation from sensor data to model accuracy to controller performance. We apply the Model-IQ uncertainty analysis for model-based controls in buildings to demonstrate the cost-benefit of adding temporary sensors to capture a building model. We show how sensor placement and density bias training data. For the real building considered, a bias of 1% degrades model accuracy by 20%. Model-IQ's automated process lowers the cost of sensor deployment, model training and evaluation of advanced controls for small and medium sized buildings. Such end-to-end analysis of uncertainty propagation has the potential to lower the cost for CPS with closed-loop model based control. We demonstrate this with real building data in the Department of Energy's HUB.}
 }
 
 @inproceedings{pajic2009anti,
@@ -817,7 +869,9 @@ various settings.”}
   booktitle={2017 IEEE Conference on Control Technology and Applications (CCTA)},
   pages={1235--1240},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1119&context=mlab_papers},
+  abstract = {Modern control systems, like controllers for swarms of quadrotors, must satisfy complex control objectives while withstanding a wide range of disturbances, from bugs in their software to attacks on their sensors and changes in their environments. These requirements go beyond stability and tracking, and involve temporal and sequencing constraints on system response to various events. This work formalizes the requirements as formulas in Metric Temporal Logic (MTL), and designs a controller that maximizes the robustness of the MTL formula. Formally, if the system satisfies the formula with robustness r, then any disturbance of size less than r cannot cause it to violate the formula. Because robustness is not differentiable, this work provides arbitrarily precise, infinitely differentiable, approximations of it, thus enabling the use of powerful gradient descent optimizers. Experiments on a temperature control example and a two-quadrotor system demonstrate that this approach to controller design outper- forms existing approaches to robustness maximization based on Mixed Integer Linear Programming and stochastic heuristics. Moreover, it is not constrained to linear systems.}
 }
 
 @misc{mangharam2020control,
@@ -896,7 +950,9 @@ various settings.”}
   booktitle={2017 Resilience Week (RWS)},
   pages={90--96},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1118&context=mlab_papers},
+  abstract = {This paper details the design of an autonomous vehicle CAD toolchain, which captures formal descriptions of driving scenarios in order to develop a safety case for an autonomous vehicle (AV). Rather than focus on a particular component of the AV, like adaptive cruise control, the toolchain models the end-to-end dynamics of the AV in a formal way suitable for testing and verification. First, a domain-specific language capable of describing the scenarios that occur in the day-to-day operation of an AV is defined. The language allows the description and composition of traffic participants, and the specification of formal correctness requirements. A scenario described in this language is an executable that can be processed by a specification-guided automated test generator (bug hunting), and by an exhaustive reachability tool. The toolchain allows the user to exploit and integrate the strengths of both testing and reachability, in a way not possible when each is run alone. Finally, given a particular execution of the scenario that violates the requirements, a visualization tool can display this counter-example and generate labeled sensor data. The effectiveness of the approach is demonstrated on five autonomous driving scenarios drawn from a collection of 36 scenarios that account for over 95% of accidents nationwide. These case studies demonstrate robustness-guided verification heuristics to reduce analysis time, counterexample visualization for identifying controller bugs in both the discrete decision logic and low-level analog (continuous) dynamics, and identification of modeling errors that lead to unrealistic environment behavior.}
 }
 
 @article{jiang2016challenges,
@@ -907,7 +963,8 @@ various settings.”}
   number={1},
   pages={34--42},
   year={2016},
-  publisher={IEEE}
+  publisher={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1097&context=mlab_papers}
 }
 
 @article{meyerscommunications,
@@ -927,7 +984,29 @@ various settings.”}
   booktitle={2015 IEEE Real-Time Systems Symposium},
   pages={43--52},
   year={2015},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1110&context=mlab_papers},
+  abstract = { Control software of autonomous robots has stringent real-time requirements that must be met to achieve the
+control objectives. One source of variability in the performance
+of a control system is the execution time and accuracy of
+the state estimator that provides the controller with state
+information. This estimator is typically perception-based (e.g.,
+Computer Vision-based) and is computationally expensive.
+When the computational resources of the hardware platform
+become overloaded, the estimation delay can compromise control performance and even stability. In this paper, we define
+a framework for co-designing anytime estimation and control
+algorithms, in a manner that accounts for implementation
+issues like delays and inaccuracies. We construct an anytime
+perception-based estimator from standard off-the-shelf Computer Vision algorithms, and show how to obtain a trade-off
+curve for its delay vs estimate error behavior. We use this
+anytime estimator in a controller that can use this tradeoff curve at runtime to achieve its control objectives at a
+reduced energy cost. When the estimation delay is too large
+for correct operation, we provide an optimal manner in which
+the controller can use this curve to reduce estimation delay
+at the cost of higher inaccuracy, all the while guaranteeing
+basic objectives are met. We illustrate our approach on an
+autonomous hexrotor and demonstrate its advantage over a
+system that does not exploit co-design.}
 }
 
 @inproceedings{mangharam2006voice,
@@ -1094,12 +1173,14 @@ various settings.”}
 }
 
 @inproceedings{jang2015cloud,
-  title={Cloud Mat: Context-aware personalization of fitness content},
+  title={CloudMat: Context-aware personalization of fitness content},
   author={Jang, Kuk Jin and Ryoo, Jungmin and Telhan, Orkan and Mangharam, Rahul},
   booktitle={2015 IEEE International Conference on Services Computing},
   pages={301--308},
   year={2015},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1105&context=mlab_papers},
+  abstract = {Digital video content via broadcast television, Internet and other content distribution networks provide limited interaction for fitness and wellness activities. The content delivery is one-way only and provides no personalization to the pace, programming and progress of the user’s exercise routine. Furthermore, the content is to be viewed only on a screen which makes it awkward and incompatible with full-body activities such as yoga, pilates and T’ai chi. We present CloudMat, a system for context-aware personalization of fitness content with cloudenabled connected surfaces. CloudMat provides real-time closedloop feedback between the state of the user on the physical mat and the state of the content in the cloud service. Content is tagged with actuation signals where events are delegated from the screen to display on an electroluminescent lighting layer on the mat, which provides spatial guidance to the end-user. Through the sensor-layer embedded in the mat, the physical interface captures the pose and timing of the user activity and relays it to the Context-aware Personalization cloud service. This service coordinates sensing and actuation between the content stream and mat by generating pose templates and metadata files about the exercise routine to be delivered to the user. Through this interactive process between the physical mat and the content service, the feedback provided by the user performing the routine continuously adapts the pace and programming to maintain the desired user experience. We demonstrate the utility of the system and evaluate the system performance with a case study on interactive yoga.}
 }
 
 @article{rodionovaautonomous,
@@ -1141,7 +1222,9 @@ various settings.”}
   number={2},
   pages={15--23},
   year={2017},
-  publisher={ACM New York, NY, USA}
+  publisher={ACM New York, NY, USA},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1108&context=mlab_papers},
+  abstract = {Autonomous medical devices such as implantable cardiac pacemakers are capable of diagnosing the patient condition and delivering therapy without human intervention. Their ability to autonomously affect the physiological state of the patient makes them safety-critical. Sufficient evidence for the safety and efficacy of the device software, which makes these autonomous decisions, should be provided before these devices can be released on the market. Formal methods like model checking can provide safety evidence that the devices can safely operate under a large variety of physiological conditions. The challenge is to develop physiological models that are general enough to cover the large variability of human physiology, and also expressive enough to provide physiological contexts to counter-examples returned by the model checker. In this paper, the authors develop a set of physiological abstraction rules that introduce physiological constraints to heart models. By applying these abstraction rules to a initial set of heart models, an abstraction tree is created. The root model covers all possible inputs to a pacemaker and derived models cover inputs from different heart conditions. If a counter-example is returned by the model checker, the abstraction tree is traversed so that the most concrete counter-example(s) with physiological contexts can be returned to the domain experts for validity check. The abstraction tree framework replaces the manual abstraction and refinement framework, which reduced the amount of domain knowledge required to perform closed-loop model checking. It encourages the use of model checking during the development of autonomous medical devices, and identifies safety risks earlier in the design process.}
 }
 
 @inproceedings{o2020tunercar,
@@ -1202,7 +1285,9 @@ various settings.”}
   author={Abbas, Houssam and Jiang, Kuk Jin and Jiang, Zhihao and Mangharam, Rahul},
   booktitle={Proceedings of the 19th International Conference on Hybrid Systems: Computation and Control},
   pages={87--92},
-  year={2016}
+  year={2016},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1106&context=mlab_papers},
+  abstract = {Ventricular Fibrillation is a disorganized electrical excitation of the heart that results in inadequate blood flow to the body. It usually ends in death within a minute. A common way to treat the symptoms of fibrillation is to implant a medical device, known as an Implantable Cardioverter Defibrillator (ICD), in the patient's body. Model-based verification can supply rigorous proofs of safety and efficacy. In this paper, we build a hybrid system model of the human heart+ICD closed loop, and show it to be a STORMED system, a class of o-minimal hybrid systems that admit finite bisimulations. In general, it may not be possible to compute the bisimulation. We show that approximate reachability can yield a finite simulation for STORMED systems, and that certain compositions respect the STORMED property. The results of this paper are theoretical and motivate the creation of concrete model checking procedures for STORMED systems.}
 }
 
 @article{andersontechnical,
@@ -1244,7 +1329,9 @@ various settings.”}
   author={Abbas, Houssam and O'Kelly, Matthew and Mangharam, Rahul},
   booktitle={Proceedings of the 20th International Conference on Hybrid Systems: Computation and Control},
   pages={217--225},
-  year={2017}
+  year={2017},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1116&context=mlab_papers},
+  abstract = {Relaxed notions of decidability widen the scope of automatic verification of hybrid systems. In quasi-decidability and $\delta$-decidability, the fundamental compromise is that if we are willing to accept a slight error in the algorithm's answer, or a slight restriction on the class of problems we verify, then it is possible to obtain practically useful answers. This paper explores the connections between relaxed decidability and the robust semantics of Metric Temporal Logic formulas. It establishes a formal equivalence between the robustness degree of MTL specifications, and the imprecision parameter $\delta$ used in $\delta$-decidability when it is used to verify MTL properties. We present an application of this result in the form of an algorithm that generates new constraints to the $\delta$-decision procedure from falsification runs, which speeds up the verification run. We then establish new conditions under which robust testing, based on the robust semantics of MTL, is in fact a quasi-semidecision procedure. These results allow us to delimit what is possible with fast, robustness-based methods, accelerate (near-)exhaustive verification, and further bridge the gap between verification and simulation.}
 }
 
 @article{pajic2009embedded,
@@ -1305,7 +1392,9 @@ various settings.”}
 @article{bogdan2015cyber,
   title={Cyber-Physical Systems for Medical Applications Publication date: September/October 2015},
   author={Bogdan, Paul and Mangharam, Rahul},
-  year={2015}
+  year={2015},
+  url = {},
+  abstract = {}
 }
 
 @article{mangharam2011green,
@@ -1321,8 +1410,9 @@ various settings.”}
   pages={1--4},
   year={2018},
   organization={IEEE},  
-  url = {},
-  abstract = {}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1131&context=mlab_papers},
+  abstract = {In this paper we aim to answer the question, ``How can modeling and simulation of physiological systems be used to evaluate life-critical implantable medical devices?'' Clinical trials for medical devices are becoming increasingly inefficient as they take several years to conduct, at very high cost and suffer from high rates of failure. For example, the Rhythm ID Goes Head-to-head Trial (RIGHT) sought to evaluate the performance of two arrhythmia discriminator algorithms for implantable cardioverter defibrillators, Vitality 2 vs. Medtronic, in terms of time-to-first inappropriate therapy, but concluded with results contrary to the initial hypothesis - after 5 years, 2,000+ patients and at considerable ethical and monetary cost. In this paper, we describe the design and performance of a computer-aided clinical trial (CACT) for Implantable Cardiac Devices where previous trial information, real patient data and closed-loop device models are effectively used to evaluate the trial with high confidence. We formulate the CACT in the context of RIGHT using a Bayesian statistical framework. We define a hierarchical model of the virtual cohort generated from a physiological model which captures the uncertainty in the parameters and allows for the systematic incorporation of information available at the design of the trial. With this formulation, the CACT estimates the inappropriate therapy rate of Vitality 2 compared to Medtronic as 33.22% vs 15.62% (p}
+
 }
 
 @phdthesis{takeda2003paq,
@@ -1359,7 +1449,9 @@ various settings.”}
 @article{jiang2015high,
   title={High-confidence medical device software development},
   author={Jiang, Zhihao and Mangharam, Rahul},
-  year={2015}
+  year={2015},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1096&context=mlab_papers},
+  abstract = {The design of bug-free and safe medical device software is challenging, especially in complex implantable devices. This is due to the device's closed-loop interaction with the patient's organs, which are stochastic physical environments. The life-critical nature and the lack of existing industry standards to enforce software validation make this an ideal domain for exploring design automation challenges for integrated functional and formal modeling with closed-loop analysis. The primary goal of high-confidence medical device software is to guarantee the device will never drive the patient into an unsafe condition even though we do not have complete understanding of the physiological plant. There are two major differences between modeling physiology and modeling man-made systems: first, physiology is much more complex and less well-understood than man-made systems like cars and airplanes, and spans several scales from the molecular to the entire human body. Secondly, the variability between humans is orders of magnitude larger than that between two cars coming off the assembly line. Using the implantable cardiac pacemaker as an example of closed-loop device, and the heart as the organ to be modeled, we present several of the challenges and early results in model-based device validation. We begin with detailed timed automata model of the pacemaker, based on the specifications and algorithm descriptions from Boston Scientific. For closed-loop evaluation, a real-time Virtual Heart Model (VHM) has been developed to model the electrophysiological operation of the functioning and malfunctioning (i.e., during arrhythmia) hearts. By extracting the timing properties of the heart and pacemaker device, we present a methodology to construct timed-automata models for formal model checking and functional testing of the closed-loop system. The VHM's capability of generating clinically-relevant response has been validated for a variety of common arrhythmias. Based on a set of requirements, we describe a framework of Abstraction Trees that allows for interactive and physiologically relevant closed-loop model checking and testing for basic pacemaker device operations such as maintaining the heart rate, atrial-ventricle synchrony and complex conditions such as avoiding pacemaker-mediated tachycardia. Through automatic model translation of abstract models to simulation-based testing and code generation for platform-level testing, this model-based design approach ensures the closed-loop safety properties are retained through the design toolchain and facilitates the development of verified software from verified models. This system is a step toward a validation and testing approach for medical cyber-physical systems with the patient-in-the-loop.}
 }
 
 @article{abdelzaherrtss,
@@ -1397,7 +1489,9 @@ various settings.”}
   booktitle={2017 American Control Conference (ACC)},
   pages={44--49},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1115&context=mlab_papers},
+  abstract = {Decisions on how to best optimize energy systems operations are becoming ever so complex and conflicting, that model-based predictive control (MPC) algorithms must play an important role. However, a key factor prohibiting the widespread adoption of MPC in buildings, is the cost, time, and effort associated with learning first-principles based dynamical models of the underlying physical system. This paper introduces an alternative approach for implementing finite-time receding horizon control using control-oriented data-driven models. We call this approach Data Predictive Control (DPC). Specifically, by utilizing separation of variables, two novel algorithms for implementing DPC using a single regression tree and with regression trees ensembles (random forest) are presented. The data predictive controller enables the building operator to trade off energy consumption against thermal comfort without having to learn white/grey box models of the systems dynamics. We present a comprehensive numerical study which compares the performance of DPC with an MPC based energy management strategy, using a single zone building model. Our results demonstrate that performance of DPC is comparable to an MPC controller, with only 3.8% additional cost in terms of optimal objective function and within 95% in terms of R2 score, thereby making it an alluring alternative to MPC, whenever the associated cost of learning the model is high.}
 }
 
 @article{aghasrds,
@@ -1411,7 +1505,9 @@ various settings.”}
   booktitle={2017 IEEE 56th annual conference on decision and control (CDC)},
   pages={4446--4451},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1120&context=mlab_papers},
+  abstract = {Decisions on how to best operate large complex plants such as natural gas processing, oil refineries, and energy efficient buildings are becoming ever so complex that model-based predictive control (MPC) algorithms must play an important role. However, a key factor prohibiting the widespread adoption of MPC, is the cost, time, and effort associated with learning first-principles dynamical models of the underlying physical system. An alternative approach is to employ learning algorithms to build black-box models which rely only on real-time data from the sensors. Machine learning is widely used for regression and classification, but thus far data-driven models have not been used for closed-loop control. We present novel Data Predictive Control (DPC) algorithms that use Regression Trees and Random Forests for receding horizon control. We demonstrate the strength of our approach with a case study on a bilinear building model identified using real weather data and sensor measurements. In a one-to-one comparison, we show that DPC explains 70\% variation in the MPC controller. We further apply DPC to a large scale multi-story EnergyPlus building model to curtail total power consumption in a Demand Response setting. In such cases, when the model-based controllers fail due to modeling cost, complexity and scalability, our results show that DPC curtails the desired power usage with high confidence.}
 }
 
 @article{mangharam2006rt,
@@ -1465,7 +1561,9 @@ various settings.”}
 @article{pant2014peak,
   title={Peak power control of battery and super-capacitor energy systems in electric vehicles},
   author={Pant, Yash Vardhan and Nghiem, Truong X and Mangharam, Rahul},
-  year={2014}
+  year={2014},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1085&context=mlab_papers},
+  abstract = {Hybrid energy systems consist of a load powered by a source and a form of energy storage. Systems with mixed energy supply find applications in the electric grid with renewable and non-renewable sources, in mission critical systems such as Mars rovers with rechargeable and non-rechargeable batteries and low-power monitoring systems with energy harvesting. A general problem for hybrid energy systems is the reduction of peak power consumption to ensure cost-efficient operation as peak power draws require additional resources, adversely affect the system reliability and storage lifetime. Furthermore, in some cases such as electric vehicles, the load dynamics are fast, not perfectly known a priori and the computation power available is often limited, making the implementation of traditional optimal control difficult. This paper aims to develop a control scheme to reduce the peak power drawn from the source for hybrid energy systems with limited computation power and limited load forecasts. We propose a scheme with two control levels and provide a sufficient condition for control of the different energy storage/generation components to meet the instantaneous load while satisfying a peak power threshold. The scheme provides performance comparable to Model Predictive Control, while requiring less computation power and only coarse-grained load predictions. As a case study we implement the scheme for a battery-supercapacitor system in an electric vehicle with real world drive cycles to demonstrate the low execution time and effective reduction of the battery power (hence temperature), which is crucial to the lifetime of the battery.}
 }
 
 @inproceedings{huang2020towards,
@@ -1491,7 +1589,8 @@ various settings.”}
   booktitle={2016 IEEE International High Level Design Validation and Test Workshop (HLDVT)},
   pages={85--92},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1114&context=mlab_papers}
 }
 
 @article{abbas2017nonlinear,
@@ -1586,13 +1685,17 @@ various settings.”}
   author={Jiang, Zhihao and Abbas, Houssam and Jang, Kuk Jin and Mangharam, Rahul},
   journal={Computer},
   volume={2015},
-  year={2016}
+  year={2016},
+  url = {},
+  abstract = {}
 }
 
 @article{abbas2016benchmark,
   title={Benchmark: Nonlinear Hybrid Automata Model of Excitable Cardiac Tissue},
   author={Abbas, Houssam and Jang, Kuk Jin and Mangharam, Rahul},
-  year={2016}
+  year={2016},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1109&context=mlab_papers},
+  abstract = {Implantable cardiac devices like pacemakers and defibrillators are life-saving medical devices. To verify their functionality, there is a need for heart models that can simulate interesting phenomena and are relatively computationally tractable. In this benchmark we implement a model of the electrical activity in excitable cardiac tissue as a network of nonlinear hybrid automata. The model has previously been shown to simulate fast arrhythmias. The hybrid automata are arranged in a square n-by-n grid and communicate via their voltages. Our Matlab implementation allows the user to specify any size of model $n$, thus rendering it ideal for benchmarking purposes since we can study tool efficiency as a function of size. We expect the model to be used to analyze parameter ranges and network connectivity that lead to dangerous heart conditions. It can also be connected to device models for device verification.}
 }
 
 @article{mangharam2013autoplug,
@@ -1613,7 +1716,9 @@ various settings.”}
 @article{jiang2014requirement,
   title={Requirement-guided model refinement},
   author={Jiang, Zhihao and Mosterman, Pieter and Mangharam, Rahul},
-  year={2014}
+  year={2014},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1087&context=mlab_papers},
+  abstract = {Medical device is a typical Cyber-Physical System and ensuring the safety and efficacy of the device requires closed-loop verification. Currently closed-loop verifications of medical devices are performed in the form of clinical trials in which the devices are tested on the patients.}
 }
 
 @article{smarra2020data,
@@ -1663,9 +1768,9 @@ various settings.”}
   title={Computer aided clinical trials for implantable cardiac devices},
   author={Abbas, Houssam and Jiang, Zhihao and Jang, Kuk Jin and Beccani, Marco and Liang, Jackson and Dixit, Sanjay and Mangharam, Rahul},
   year={2016},
-  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1131&context=mlab_papers},
-  abstract = {In this paper we aim to answer the question, ``How can modeling and simulation of physiological systems be used to evaluate life-critical implantable medical devices?'' Clinical trials for medical devices are becoming increasingly inefficient as they take several years to conduct, at very high cost and suffer from high rates of failure. For example, the Rhythm ID Goes Head-to-head Trial (RIGHT) sought to evaluate the performance of two arrhythmia discriminator algorithms for implantable cardioverter defibrillators, Vitality 2 vs. Medtronic, in terms of time-to-first inappropriate therapy, but concluded with results contrary to the initial hypothesis - after 5 years, 2,000+ patients and at considerable ethical and monetary cost. In this paper, we describe the design and performance of a computer-aided clinical trial (CACT) for Implantable Cardiac Devices where previous trial information, real patient data and closed-loop device models are effectively used to evaluate the trial with high confidence. We formulate the CACT in the context of RIGHT using a Bayesian statistical framework. We define a hierarchical model of the virtual cohort generated from a physiological model which captures the uncertainty in the parameters and allows for the systematic incorporation of information available at the design of the trial. With this formulation, the CACT estimates the inappropriate therapy rate of Vitality 2 compared to Medtronic as 33.22% vs 15.62% (p}
-}
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1112&context=mlab_papers},
+  abstract = {In this effort we investigate the design and use of physiological and device models to conduct pre-clinical trials to provide early insight in the design and execution of the actual clinical trial. Computer models of physiological phenomena like cardiac electrical activity can be extremely complex. However, when the purpose of the model is to interact with a medical device, then it becomes sufficient to model the measurements that the device makes, e.g. the intra-cardiac electrograms (EGMs) that an Implantable Cardioverter Defibrillator (ICD) measures. We present a probabilistic generative model of EGMs, capable of generating exemplars of various arrhythmias. The model uses deformable shape templates, or motifs, to capture the variability in EGM shapes within one EGM channel, and a cycle length parameter to capture the variability in cycle length in one EGM channel. The relation between EGM channels, which is essential for determining whether the current arrhythmia is potentially fatal, is captured by a time-delayed Markov chain, whose states model the various combinations of (learned) motifs. The heart model is minimally parameterized and is learned from real patient data. Thus the statistics of key features reflect the statistics of a real cohort, but the model can also generate rare cases and new combinations from the inferred probabilities. On the device end, algorithms for signal sensing, detection and discrimination for major ICD manufacturers have been implemented both in simulation and on hardware platforms. The generated arrhythmia episodes are used as input to both the modeled ICD algorithms and real ICDs as part of a Computer Aided Clinical Trial (CACT). In a CACT, a computer model simulates the inputs to the device (such as a new, investigational ICD), and the device’s performance is evaluated. By incorporating these results into the appropriate statistical framework, the Computer Aided Clinical Trial results can serve as regulatory evidence when planning and executing an actual clinical trial. We demonstrate this by conducting a mock trial similar to the 2005-2010 RIGHT trial which compared the discrimination algorithms from two major ICD manufacturers. The results of the CACT clearly demonstrate that the failed outcome of the RIGHT trial could have been predicted and provides statistical support for deeper results that could have been captured prior to the trial.},
+ }
 
 @article{mangharam2010spatio,
   title={Spatio-Temporal Techniques for Anti-Jamming in Embedded Wireless Networks},
@@ -1694,7 +1799,9 @@ various settings.”}
 @article{behl2015sometimes,
   title={Sometimes, money does grow on trees: Dr-advisor, a data driven demand response recommender system},
   author={Behl, Madhur and Mangharam, Rahul},
-  year={2015}
+  year={2015},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1101&context=mlab_papers},
+  abstract = {Unprecedented amounts of information from millions of smart meters and thermostats installed in recent years has left the door open for better understanding, analyzing and using the insights that data can provide, about the power consumption patterns of a building. The challenge with using data-driven approaches, is to close the loop for near real-time control and decision making in large buildings. Furthermore, providing a technological solution alone is not enough, the solution must also be human centric. We consider the problem of end-user demand response for commercial buildings. Using historical data from the building, we build a family of regression trees based models for predicting the power consumption of the building in real-time. We have built DR-Advisor, a recommender system for the building's facilities manager, which provides optimal control actions to meet the required load curtailment while maintaining building operations and maximizing the economic reward.}
 }
 
 @article{mangharamese680,
@@ -1710,7 +1817,9 @@ various settings.”}
   number={4s},
   pages={1--26},
   year={2014},
-  publisher={ACM New York, NY, USA}
+  publisher={ACM New York, NY, USA},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1811&context=cis_papers},
+  abstract = {Software-based control of life-critical embedded systems has become increasingly complex, and to a large extent has come to determine the safety of the human being. For example, implantable cardiac pacemakers have over 80,000 lines of code which are responsible for maintaining the heart within safe operating limits. As firmware-related recalls accounted for over 41% of the 600,000 devices recalled in the last decade, there is a need for rigorous model-driven design tools to generate verified code from verified software models. To this effect we have developed the UPP2SF model-translation tool, which facilitates automatic conversion of verified models (in UPPAAL) to models that may be simulated and tested (in Simulink/Stateflow). We describe the translation rules that ensure correct model conversion, applicable to a large class of models. We demonstrate how UPP2SF is used in the model-driven design of a pacemaker whose model is (a) designed and verified in UPPAAL (using timed automata), (b) automatically translated to Stateflow for simulation-based testing, and then (c) automatically generated into modular code for hardware-level integration testing of timing-related errors. In addition, we show how UPP2SF may be used for worst-case execution time estimation early in the design stage. Using UPP2SF, we demonstrate the value of integrated end-to-end modeling, verification, code-generation and testing process for complex software-controlled embedded systems.}
 }
 
 @inproceedings{jiang2011demo,
@@ -1720,14 +1829,6 @@ various settings.”}
   pages={119--120},
   year={2011},
   organization={IEEE}
-}
-
-@article{jiang2015technical,
-  title={Technical Report: Abstraction-Tree For Closed-loop Model Checking of Medical Devices},
-  author={Jiang, Zhihao and Abbas, Houssam and Mosterman, Pieter J and Mangharam, Rahul},
-  year={2015},  
-  url = {},
-  abstract = {}
 }
 
 @article{gozalvezwivec,
@@ -1743,7 +1844,9 @@ various settings.”}
 @article{jiang2014heart,
   title={Heart-on-a-Chip: a closed-loop testing platform for implantable pacemakers},
   author={Jiang, Zhihao and Radhakrishnan, Sriram and Sampath, Varun and Sarode, Shilpa and Mangharam, Rahul},
-  year={2014}
+  year={2014},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1073&context=mlab_papers},
+  abstract = {Implantable cardiac pacemakers restore normal heart rhythm by delivering external electrical pacing to the heart. The pacemaker software is life-critical as the timing of the pulses determine its ability to control the heart rate. Recalls due to software issues have been on the rise with the increasing complexity of pacing algorithms. Open-loop testing remains the primary approach to evaluate the safety of pacemaker software. While this tests how the pacemaker responds to stimulus, it cannot reveal pacemaker malfunctions which drive the heart into an unsafe state over multiple cycles. To evaluate the safety and efficacy of pacemaker software we have developed a heart model to generate different heart conditions and interact with real pacemakers. In this paper, we introduce the closed-loop testing platform which consists of a programmable hardware implementation of the heart that can interact with a commercial pacemaker in closed-loop. The heart-on-a-chip implementation is automatically generated from the Virtual Heart Model in Simulink which models different heart conditions. We describe a case study of Endless Loop Tachycardia to demonstrate potential closed-loop pacemaker malfunctions which inappropriately increase the heart rate. The test platform is part of our model-based design framework for verification and testing of medical devices with the patient--in-the-loop.}
 }
 
 @article{abbas2018real,
@@ -1912,7 +2015,9 @@ conclusions, with potentially severe consequences to patients.}
   booktitle={2016 IEEE 55th Conference on Decision and Control (CDC)},
   pages={5694--5699},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},  
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1113&context=mlab_papers},
+  abstract = {Robust predictive control of non-linear systems under state estimation errors and input and state constraints is a challenging problem, and solutions to it have generally involved solving computationally hard non-linear optimizations. Feedback linearization has reduced the computational burden, but has not yet been solved for robust model predictive control under estimation errors and constraints. In this paper, we solve this problem of robust control of a non-linear system under bounded state estimation errors and input and state constraints using feedback linearization. We do so by developing robust constraints on the feedback linearized system such that the non-linear system respects its constraints. These constraints are computed at run-time using online reachability, and are linear in the optimization variables, resulting in a Quadratic Program with linear constraints. We also provide robust feasibility, recursive feasibility and stability results for our control algorithm. We evaluate our approach on two systems to show its applicability and performance.}
 }
 
 @inproceedings{nghiem2011green,
@@ -1983,7 +2088,11 @@ conclusions, with potentially severe consequences to patients.}
   booktitle={2015 International Conference on Embedded Software (EMSOFT)},
   pages={137--146},
   year={2015},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1095&context=mlab_papers},
+  abstract = {Peak power consumption is a universal problem across energy control systems in electrical grids, buildings, and industrial automation where the uncoordinated operation of multiple controllers result in temporally correlated electricity demand surges (or peaks). While there exist several different approaches to balance power consumption by load shifting and load shedding, they operate on coarse grained time scales and do not help in de-correlating energy sinks. The Energy System Scheduling Problem is particularly hard due to its binary control variables. Its complexity grows exponentially with the scale of the system, making it impossible to handle systems with more than a few variables.
+
+We developed a scalable approach for fine-grained scheduling of energy control systems that novelly combines techniques from control theory and computer science. The original system with binary control variables are approximated by an averaged system whose inputs are the utilization values of the binary inputs within a given period. The error between the two systems can be bounded, which allows us to derive a safety constraint for the averaged system so that the original system's safety is guaranteed. To further reduce the complexity of the scheduling problem, we abstract the averaged system by a simple single-state single-input dynamical system whose control input is the upper-bound of the total demand of the system. This model abstraction is achieved by extending the concept of simulation relations between transition systems to allow for input constraints between the systems. We developed conditions to test for simulation relations as well as algorithms to compute such a model abstraction. As a consequence, we only need to solve a small linear program to compute an optimal bound of the total demand. The total demand is then broken down, by solving a linear program much smaller than the original program, to individual utilization values of the subsystems, whose actual schedule is then obtained by a low-level scheduling algorithm. Numerical simulations in Matlab show the effectiveness and scalability of our approach.}
 }
 
 @article{alur66001towards,
@@ -2000,7 +2109,9 @@ conclusions, with potentially severe consequences to patients.}
   author={Behl, Madhur and Mangharam, Rahul},
   booktitle={Proceedings of the 2nd ACM International Conference on Embedded Systems for Energy-Efficient Built Environments},
   pages={137--146},
-  year={2015}
+  year={2015},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1100&context=mlab_papers},
+  abstract = {Real-time electricity pricing and demand response has become a clean, reliable and cost-effective way of mitigating peak demand on the electricity grid. We consider the problem of end-user demand response (DR) for large commercial buildings which involves predicting the demand response baseline, evaluating fixed DR strategies and synthesizing DR control actions for load curtailment in return for a financial reward. Using historical data from the building, we build a family of regression trees and learn data-driven models for predicting the power consumption of the building in real-time. We present a method called DR-Advisor called DR-Advisor, which acts as a recommender system for the building's facilities manager and provides suitable control actions to meet the desired load curtailment while maintaining operations and maximizing the economic reward. We evaluate the performance of DR-Advisor for demand response using data from a real office building and a virtual test-bed.}
 }
 
 @article{turau20145th,
@@ -2057,5 +2168,7 @@ conclusions, with potentially severe consequences to patients.}
 @article{behl2014evaluation,
   title={Evaluation of dr-advisor on the ashrae great energy predictor shootout challenge},
   author={Behl, Madhur and Mangharam, Rahul},
-  year={2014}
+  year={2014},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1093&context=mlab_papers},
+  abstract = {This paper describes the evaluation of DR-Advisor algorithms on ''The Great Energy Predictor Shootout - The First Building Data Analysis and Prediction Competition'' held in 1993-94 by ASHRAE.}
 }
