@@ -208,7 +208,7 @@ Namely, our AV code, for both perception and control, interacts in real-time wit
   title={Firefly: A cross-layer platform for real-time sensor networks},
   author={Mangharam, Rahul and Rowe, Anthony and Rajkumar, Raj},
   journal={Real Time Systems Journal, Camera ready submission in progress},
-  publisher={Citeseer},  
+  publisher={Citeseer}
 }
 
 @article{abbasdriverless,
@@ -439,7 +439,10 @@ system that does not exploit co-design.}
 @article{mangharam2012car,
   title={The car and the cloud: Automotive architectures for 2020},
   author={Mangharam, Rahul},
-  year={2012}
+  year={2012},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1078&context=mlab_papers},
+  abstract = {Three trends are emerging in drivers’ expectations for their vehicle: (1) continuous connectivity with both the infrastructure (e.g., smart traffic intersections) and other commuters, (2) enhanced levels of productivity and entertainment for the duration of travel, and (3) reduction in cognitive load through semiautonomous operation and automated congestion-aware route planning. To address these demands, vehicles should become more programmable so that almost every aspect of engine control, cabin comfort, connectivity, navigation, and safety will be remotely upgradable and designed to evolve over the lifetime of the vehicle.
+Progress toward the vehicle of the future will entail new approaches in the design and sustainability of vehicles so that they are connected to networked traffic systems and are programmable over the course of their lifetime. To that end, our automotive research team at the University of Pennsylvania is devel- oping an in-vehicle programmable system, AutoPlug, an automotive architecture for remote diagnostics, testing, and code updates for dispatch from a datacenter to vehicle electronic controller units. For connected vehicles, we are implementing a networked vehicle platform, GrooveNet, that allows communication between real and simulated vehicles to evaluate the feasibility and application of vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication; the focus in this paper is on its application to safety. Finally, we are working on a tool for large-scale traffic congestion analysis, AutoMatrix, capable of simulating over 16 million vehicles on any US street map and computing real-time fastest paths for a large subset of vehicles. The tools and platforms described here are free and open-source from the author.}
 }
 
 @article{zhangweimer,
@@ -621,7 +624,9 @@ system that does not exploit co-design.}
   author={Bernal, Willy and Behl, Madhur and Nghiem, Truong X and Mangharam, Rahul},
   booktitle={Proceedings of the Fourth ACM Workshop on Embedded Sensing Systems for Energy-Efficiency in Buildings},
   pages={123--130},
-  year={2012}
+  year={2012},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1069&context=mlab_papers},
+  abstract = {We present MLE+, a tool for energy-efficient building automation design, co-simulation and analysis. The tool leverages the high-fidelity building simulation capabilities of EnergyPlus and the scientific computation and design capabilities of Matlab for controller design. MLE+ facilitates integrated building simulation and controller formulation with integrated support for system identification, control design, optimization, simulation analysis and communication between software applications and building equipment. It provides streamlined workflows, a graphical front-end, and debugging support to help control engineers eliminate design and programming errors and take informed decisions early in the design stage, leading to fewer iterations in the building automation development cycle. We show through an example and two case studies how MLE+ can be used for designing energy-efficient control algorithms for both simulated buildings in EnergyPlus and real building equipment via BACnet.}
 }
 
 @article{pant2020anytime,
@@ -774,7 +779,9 @@ system that does not exploit co-design.}
   booktitle={2012 IEEE 51st IEEE Conference on Decision and Control (CDC)},
   pages={7577--7582},
   year={2012},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1064&context=mlab_papers},
+  abstract = {In this report we look at the problem of peak power reduction for buildings with electric radiant floor heating systems. Uncoordinated operation of a multi-zone radiant floor heating system can result in temporally correlated electricity demand surges or peaks in the building’s electricity consumption. As peak power prices are 200-400 times that of the nominal rate, this uncoordinated activity can result in high electricity costs and expensive system operation. We have previously presented green scheduling as an approach for reducing the aggregate peak power consumption in buildings while ensuring that indoor thermal comfort is always maintained. This report extends the theoretical results for general affine dynamical systems and applies them to electric radiant floor heating systems. The potential of the proposed method in reducing the peak power demand is demonstrated for a small-scale system through simulation in EnergyPlus and for a large-scale system through simulation in Matlab.}
 }
 
 @inproceedings{behl2016interactive,
@@ -970,7 +977,9 @@ system that does not exploit co-design.}
 @article{pant2012autoplug,
   title={AUTOPLUG: An Architecture for Remote Electronic Controller Unit Diagnostics in Automotive Systems},
   author={Pant, Yash Vardhan and Pajic, Miroslav and Mangharam, Rahul},
-  year={2012}
+  year={2012},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1067&context=mlab_papers},
+  abstract = {In 2010, over 20.3 million vehicles were recalled. Software issues related to automotive controls such as cruise control, anti-lock braking system, traction control and stability control, account for an increasingly large percentage of the overall vehicles recalled. There is a need for new and scalable methods to evaluate automotive controls in a realistic and open setting. We have developed AutoPlug, an automotive Electronic Controller Unit (ECU) architecture between the vehicle and a Remote Diagnostics Center to diagnose, test, update and verify controls software. Within the vehicle, we evaluate observerbased runtime diagnostic schemes and introduce a framework for remote management of vehicle recalls. The diagnostics scheme deals with both real-time and non-real time faults, and we introduce a decision function to detect and isolate faults in a system with modeling uncertainties. We also evaluate the applicability of “Opportunistic Diagnostics”, where the observerbased diagnostics are scheduled in the ECU’s RTOS only when there is slack available in the system. This aperiodic diagnostics scheme performs similar to the standard, periodic diagnostics scheme under reasonable assumptions. This approach works on existing ECUs and does not interfere with current task sets. The overall framework integrates in-vehicle and remote diagnostics and serves to make vehicle recalls management a less reactive and cost-intensive procedure.}
 }
 
 @inproceedings{pant2015co,
@@ -1019,7 +1028,9 @@ system that does not exploit co-design.}
   booktitle={2012 IEEE 18th Real Time and Embedded Technology and Applications Symposium},
   pages={173--184},
   year={2012},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1063&context=mlab_papers},
+  abstract = {Model-Driven Design (MDD) of cyber-physical systems advocates for design procedures that start with formal modeling of the real-time system, followed by the model’s verification at an early stage. The verified model must then be translated to a more detailed model for simulation-based testing and finally translated into executable code in a physical implementation. As later stages build on the same core model, it is essential that models used earlier in the pipeline are valid approximations of the more detailed models developed downstream. The focus of this effort is on the design and development of a model translation tool, UPP2SF, and how it integrates system modeling, verification, model-based WCET analysis, simulation, code generation and testing into an MDD based framework. UPP2SF facilitates automatic conversion of verified timed automata-based models (in UPPAAL) to models that may be simulated and tested (in Simulink/Stateflow). We describe the design rules to ensure the conversion is correct, efficient and applicable to a large class of models. We show how the tool enables MDD of an implantable cardiac pacemaker. We demonstrate that UPP2SF preserves behaviors of the pacemaker model from UPPAAL to Stateflow. The resultant Stateflow chart is automatically converted into C and tested on a hardware platform for a set of requirements.}
 }
 
 @article{jiang2014closed,
@@ -1065,7 +1076,9 @@ system that does not exploit co-design.}
   booktitle={International Conference on Tools and Algorithms for the Construction and Analysis of Systems},
   pages={188--203},
   year={2012},
-  organization={Springer}
+  organization={Springer},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1030&context=mlab_papers},
+  abstract = {The design and implementation of software for medical devices is challenging due to their rapidly increasing functionality and the tight coupling of computation, control, and communication. The safety-critical nature and the lack of existing industry standards for verification, make this an ideal domain for exploring applications of formal modeling and analysis. In this paper, we use a dual chamber implantable pacemaker as a case study for modeling and verification of control algorithms for medical devices in UPPAAL. We present detailed models of different components of the pacemaker based on the algorithm descriptions from Boston Scientific. We formalize basic safety requirements based on specifications from Boston Scientific as well as additional physiological knowledge. The most critical potential safety violation for a pacemaker is that it may lead the closed-loop system into an undesirable pattern (for example, Tachycardia). Modern pacemakers are implemented with termination algorithms to prevent such conditions. We show how to identify these conditions and check correctness of corresponding termination algorithms by augmenting the basic models with monitors for detecting undesirable patterns. Along with emerging tools for code generation from UPPAAL models, this effort enables model driven design and certification of software for medical devices.}
 }
 
 @article{abbas2018novel,
@@ -1531,7 +1544,8 @@ system that does not exploit co-design.}
   title={Protodrive: An Experimental Platform for Electric Vehicle Energy Scheduling and Control, DOT UTC Final Report},
   author={Mangharam, Rahul and others},
   year={2018},
-  publisher={University Transportation Centers Program (US)}
+  publisher={University Transportation Centers Program (US)},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1072&context=mlab_papers}
 }
 
 @inproceedings{mangharam2005optimal,
@@ -1573,7 +1587,11 @@ system that does not exploit co-design.}
   booktitle={2012 IEEE 33rd Real-Time Systems Symposium},
   pages={195--204},
   year={2012},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1066&context=mlab_papers},
+  abstract = {In large building systems, such as a university campus, the air-conditioning systems are commonly served by chiller plants, which contribute a large fraction of the total electricity consumption of the campuses. The power consumption of a chiller is highly affected by its Coefficient of Performance (COP), which is optimal when the chiller is operated at or near full load.
+For a chiller plant, its overall COP can be optimized by utilizing a Thermal Energy Storage (TES) and switching its operation between COP-optimal charging and discharging modes. However, uncoordinated mode switchings of chiller plants may cause temporally-correlated high electricity demand when multiple plants are charging their TES concurrently.
+In this technical report, a Green Scheduling approach, proposed in our previous work, is used to schedule the chiller plants to reduce their peak aggregate power demand while ensuring safe operation of the TES. We present a scheduling algorithm based on backward reach set computation of the TES dynamics. The proposed algorithm is demonstrated in a numerical simulation in Matlab to be effective for reducing the peak power demand and the overall electricity cost.}
 }
 
 @inproceedings{abbas2016high,
@@ -1956,7 +1974,9 @@ conclusions, with potentially severe consequences to patients.}
   number={1},
   pages={3--16},
   year={2012},
-  publisher={IEEE}
+  publisher={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1070&context=mlab_papers},
+  abstract = {In modern hospitals, patients are treated using a wide array of medical devices that are increasingly interacting with each other over the network, thus offering a perfect example of a cyber-physical system. We study the safety of a medical device system for the physiologic closed-loop control of drug infusion. The main contribution of the paper is the verification approach for the safety properties of closed-loop medical device systems. We demonstrate, using a case study, that the approach can be applied to a system of clinical importance. Our method combines simulation-based analysis of a detailed model of the system that contains continuous patient dynamics with model checking of a more abstract timed automata model. We show that the relationship between the two models preserves the crucial aspect of the timing behavior that ensures the conservativeness of the safety analysis. We also describe system design that can provide open-loop safety under network failure.}
 }
 
 @article{pajic2013robust,
@@ -1991,7 +2011,9 @@ conclusions, with potentially severe consequences to patients.}
   booktitle={2012 ACM/IEEE 11th International Conference on Information Processing in Sensor Networks (IPSN)},
   pages={25--36},
   year={2012},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://repository.upenn.edu/cgi/viewcontent.cgi?article=1062&context=mlab_papers},
+  abstract = {We present a distributed scheme used for control over a network of wireless nodes. As opposed to traditional networked control schemes where the nodes simply route information to and from a dedicated controller (perhaps performing some encoding along the way), our approach, Wireless Control Network (WCN), treats the network itself as the controller. In other words, the computation of the control law is done in a fully distributed way inside the network. We extend the basic WCN strategy, where at each time-step, each node updates its internal state to be a linear combination of the states of the nodes in its neighborhood. This causes the entire network to behave as a linear dynamical system, with sparsity constraints imposed by the network topology. We demonstrate that with observer style updates, the WCN's robustness to link failures is substantially improved. Furthermore, we show how to design a WCN that can maintain stability even in cases of node failures. We also address the problem of WCN synthesis with guaranteed optimal performance of the plant, with respect to standard cost functions. We extend the synthesis procedure to deal with continuous-time plants and demonstrate how the WCN can be used on a practical, industrial application, using a process-in-the-loop setup with real hardware.}
 }
 
 @article{agnihotri2020teaching,
